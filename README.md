@@ -1,5 +1,5 @@
 <h1>🔎 Minecraft Skin Finder</h1></br>
-Made using <a href="https://minotar.net/">Minotar API</a>
+Made using <a href="https://minotar.net/" target="_blank">Minotar API</a>
 
 <h2>Screenshots:</h2>
 <img src="https://user-images.githubusercontent.com/80574029/202795336-bee5a822-11fe-4261-b3c8-a3fe16c82e19.png"/>
