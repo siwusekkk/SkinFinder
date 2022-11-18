@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("assets/bg.png") no-repeat center center fixed;
+    
+}
+
+#container{
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-size: 50px;
+    text-shadow: 0px 0 20px #ffffff;
+}
+
+#dirtyText{
+    font-size: 50px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 0 51px #ffffff;
+    background-image: url("assets/dirt.png");
+}
+
+#subtitle{
+    font-size: 20px;
+    text-shadow: 0px 0 5px #ffffff;
+}
+
+.author{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0099ff;
+    text-shadow: 0 0 5px #981efc;
+}
+
+#input{
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
+    padding-top: 60px;
+}
+
+#username{
+    border-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    transition: transform .3s;
+}
+
+#username:hover{
+    border-color: #00e9fa;
+    transform: scale(1.1);
+}
+
+#generate{
+    padding: 10px;
+    width: fit-content;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #00e9fa;
+    margin-top: 50px;
+    transition: transform .3s;
+}
+
+#generate:hover{
+    border-color: #00e9fa;
+    transform: scale(1.1);
+}
+
+#download{
+    background-color: transparent;
+    font-weight: bold;
+    padding: 15px;
+    width: fit-content;
+    border: 1px solid #0099ff;
+    border-radius: 15px;
+    transition: transform .3s;
+    text-align: center;
+}
+
+#download:hover{
+    color: #0099ff;
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
