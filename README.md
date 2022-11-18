@@ -1,4 +1,4 @@
-<h1>Minecraft Skin Finder</h1></br>
+<h1>🔎 Minecraft Skin Finder</h1></br>
 Made using <a href="https://minotar.net/">Minotar API</a>
 
 <h2>Screenshots:</h2>
